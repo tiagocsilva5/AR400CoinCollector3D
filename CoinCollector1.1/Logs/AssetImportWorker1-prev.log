@@ -1,0 +1,960 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16119 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AR400CoinCollector3D/CoinCollector1.1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64684
+Successfully changed project path to: C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AR400CoinCollector3D/CoinCollector1.1
+C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AR400CoinCollector3D/CoinCollector1.1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [65200]  Target information:
+
+Player connection [65200]  * "[IP] 192.168.0.180 [Port] 0 [Flags] 2 [Guid] 2422392000 [EditorId] 2422392000 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [65200] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [65200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 23.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AR400CoinCollector3D/CoinCollector1.1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7270
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004808 seconds.
+- Loaded All Assemblies, in  0.293 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 486ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (161ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.534 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling: 1092ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.0 KB). Loaded Objects now: 3720.
+Memory consumption went from 132.6 MB to 132.5 MB.
+Total: 4.667000 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.150200 ms MarkObjects: 4.094900 ms  DeleteObjects: 0.152400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1062184.571041 seconds.
+  path: Assets/Maritime_Heritage/Prefabs
+  artifactKey: Guid(cca728f1ef263a44f8e08ce9025cb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs using Guid(cca728f1ef263a44f8e08ce9025cb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '83e09520b1e7108663a740e6509833ff') in 0.004589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.584051 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 1.prefab
+  artifactKey: Guid(948d129b398d9114f9b079184aedd72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 1.prefab using Guid(948d129b398d9114f9b079184aedd72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4fdc8fb6355098a290b9d654aeef940c') in 0.201825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_PotteryC 1.prefab
+  artifactKey: Guid(f60c7ba909380ee45a8f8e916694571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_PotteryC 1.prefab using Guid(f60c7ba909380ee45a8f8e916694571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dfc10c18a727e97aad1c122484219cdf') in 0.075762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_BacketA 1.prefab
+  artifactKey: Guid(5544f5d8ec706ab46a28ea347d571a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_BacketA 1.prefab using Guid(5544f5d8ec706ab46a28ea347d571a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3251e40508afdcddd355d18b578cddea') in 0.097393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_PotteryB 1.prefab
+  artifactKey: Guid(6b3e77d4d6a610e4d83d2104e429560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_PotteryB 1.prefab using Guid(6b3e77d4d6a610e4d83d2104e429560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9e093df3a4bf3eecd325b37691b9b7de') in 0.078629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_LionIncenseBurner_top 1.prefab
+  artifactKey: Guid(5407fcf1cf98f5342ac0bf56dc153c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_LionIncenseBurner_top 1.prefab using Guid(5407fcf1cf98f5342ac0bf56dc153c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9d1d215f5a2f49dada7cf10f7e66636b') in 0.077887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_PorcelainB 1.prefab
+  artifactKey: Guid(39d59c8e11b6c6a4abee2b69fe4bc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_PorcelainB 1.prefab using Guid(39d59c8e11b6c6a4abee2b69fe4bc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e31c86dc5d135c43efc6539b938403f3') in 0.144285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_Ricebag 1.prefab
+  artifactKey: Guid(b198c727237af3847adc074550490ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_Ricebag 1.prefab using Guid(b198c727237af3847adc074550490ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b2bb4fbdf268d7632febf48d081cd3ca') in 0.058813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_LionIncenseBurner_bottom 1.prefab
+  artifactKey: Guid(3cfe9441adab3b6428558576d6b8aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_LionIncenseBurner_bottom 1.prefab using Guid(3cfe9441adab3b6428558576d6b8aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '96347a31a491805b203fb2f75c6dfd21') in 0.063424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_PorcelainA 1.prefab
+  artifactKey: Guid(a0868402938d9f24c979751a6c289048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_PorcelainA 1.prefab using Guid(a0868402938d9f24c979751a6c289048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e1194272b5f6b10db9a6b32cc4690d2b') in 0.068688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_Bowlbundle 1.prefab
+  artifactKey: Guid(c2a40ff20220ecc4c9fa2f5197b153b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_Bowlbundle 1.prefab using Guid(c2a40ff20220ecc4c9fa2f5197b153b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9237f2deec425accd46fc355e562f0d5') in 0.107704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_BacketC 1.prefab
+  artifactKey: Guid(b2b23e8879fe84646a9a105d1d1aa184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_BacketC 1.prefab using Guid(b2b23e8879fe84646a9a105d1d1aa184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e3ae63c2f88a33ba682e998a3b29f262') in 0.120302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 20.391281 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 3.prefab
+  artifactKey: Guid(aa2d92f6bfdbdff47b8b8942a0869634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 3.prefab using Guid(aa2d92f6bfdbdff47b8b8942a0869634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a165bacbdfc1135d0595ca6627a298aa') in 0.032680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 39.991001 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 7.prefab
+  artifactKey: Guid(1ecbdb4a6c840d447b1edbbde4b32d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 7.prefab using Guid(1ecbdb4a6c840d447b1edbbde4b32d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2ec1898f1362214b83527379ae513c83') in 0.052060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_LionIncenseBurner_top 2.prefab
+  artifactKey: Guid(2af86b74c738c6148b2dc453ffea38a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_LionIncenseBurner_top 2.prefab using Guid(2af86b74c738c6148b2dc453ffea38a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b3d34cffca30a2d3aa5f434225fe3816') in 0.104781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_BacketA 3.prefab
+  artifactKey: Guid(47c03f8bf6032f744b780f89d833db20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_BacketA 3.prefab using Guid(47c03f8bf6032f744b780f89d833db20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e2cda67807410d6122d1a5fa195b08e6') in 0.073505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Mado_Anchor 1.prefab
+  artifactKey: Guid(5c692dc593435674fa4a7fa7e3400ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Mado_Anchor 1.prefab using Guid(5c692dc593435674fa4a7fa7e3400ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '20cfe1adb81b666186a6204af818f1f4') in 0.270715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 27.140444 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 11.prefab
+  artifactKey: Guid(f9751587e36f3d940a455b2e2c9d8fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 11.prefab using Guid(f9751587e36f3d940a455b2e2c9d8fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e058f7f23cf55197177f8a7c759cdcff') in 0.035772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.734884 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 15.prefab
+  artifactKey: Guid(fa8e12f9de6a0f2439b69e257513a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 15.prefab using Guid(fa8e12f9de6a0f2439b69e257513a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f010bec183e3f12d523f7fea208e02e1') in 0.036803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 18.prefab
+  artifactKey: Guid(fd50bc2340698cd4fbf1fe7fe95558d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_Kettle_kettle 18.prefab using Guid(fd50bc2340698cd4fbf1fe7fe95558d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '08ffaf0d80591dd4f60ef17efc4f9e6c') in 0.024798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 29.926133 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/SM_Celadon_PorcelainB 4.prefab
+  artifactKey: Guid(81bb39a5122d7c241ae0b780efbfaf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/SM_Celadon_PorcelainB 4.prefab using Guid(81bb39a5122d7c241ae0b780efbfaf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '02408412bd2c4bbc0808b5fcd52fcf5b') in 0.196746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.650518 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Celadon_PorcelainB.prefab
+  artifactKey: Guid(1e27b9776de732d4a911fdaa10b49d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Celadon_PorcelainB.prefab using Guid(1e27b9776de732d4a911fdaa10b49d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '013f94f47d4fed4772b47be5163ec007') in 0.135896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_BacketA.prefab
+  artifactKey: Guid(88a5a60bb8795b5408ab38d099b38c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_BacketA.prefab using Guid(88a5a60bb8795b5408ab38d099b38c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '86840d0b32ba3b7a0660d92ceab5b615') in 0.056614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_Burner 1.prefab
+  artifactKey: Guid(c1949ec47a140fb4ab17982ace0ea859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_Burner 1.prefab using Guid(c1949ec47a140fb4ab17982ace0ea859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd33d309993230e4df7dc6058b06a6ebc') in 0.110045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_LionIncenseBurner_bottom.prefab
+  artifactKey: Guid(c86f5830fccab234cb149ade585c4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_LionIncenseBurner_bottom.prefab using Guid(c86f5830fccab234cb149ade585c4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '72d2fb4fe27fd9a1da7f33639ace8090') in 0.018445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_BacketA 3.prefab
+  artifactKey: Guid(1d683b768eccf05439ef64ff3c66c129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_BacketA 3.prefab using Guid(1d683b768eccf05439ef64ff3c66c129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '54bb5c06d04a733f45aa090df3aabde7') in 0.028646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_BacketC 1.prefab
+  artifactKey: Guid(688d937aca956384e95e76301e6db47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_BacketC 1.prefab using Guid(688d937aca956384e95e76301e6db47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c9f2afc3ddb0b83083eb18f807599826') in 0.028807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_Anchor 1.prefab
+  artifactKey: Guid(03b84c67a127e2245a04a198165d8de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Prefabs/Prefabs/SM_Mado_Anchor 1.prefab using Guid(03b84c67a127e2245a04a198165d8de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2d35c56076e1bc2a1bcff0863d143ba6') in 0.093824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 141.636920 seconds.
+  path: Assets/Maritime_Heritage/Materials/Heritage
+  artifactKey: Guid(08b70ebd1dd645441b187144af693015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Materials/Heritage using Guid(08b70ebd1dd645441b187144af693015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd6889161fcadd3d5b138f2c89d9ec3d7') in 0.001945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.451348 seconds.
+  path: Assets/Maritime_Heritage/Materials/Heritage/MI_Celadon_Kettle.mat
+  artifactKey: Guid(bd5b53e2f2c574e4dbf4f5a0b73a1628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Materials/Heritage/MI_Celadon_Kettle.mat using Guid(bd5b53e2f2c574e4dbf4f5a0b73a1628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e41903cef40f12651e7535bf46982479') in 0.064074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Maritime_Heritage/Materials/Heritage/MI_LionIncenseBurner_bottom.mat
+  artifactKey: Guid(8adc12bf0e2821f48a2c736c2d28b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Materials/Heritage/MI_LionIncenseBurner_bottom.mat using Guid(8adc12bf0e2821f48a2c736c2d28b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dc487c0af590ae4f48ebfdd02ef5d8e8') in 0.035925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maritime_Heritage/Materials/Heritage/MI_ToadInkStone.mat
+  artifactKey: Guid(b235fd10349e0874b83e4c7cdb260f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Materials/Heritage/MI_ToadInkStone.mat using Guid(b235fd10349e0874b83e4c7cdb260f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '03d53942c17167053cc4bf72cf7e8049') in 0.061223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.914464 seconds.
+  path: Assets/Island/Prefabs
+  artifactKey: Guid(80888571ec433a348b8aa74c6d2e9079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Island/Prefabs using Guid(80888571ec433a348b8aa74c6d2e9079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7fec0a0a1d265bee3e9e934cbdd08d39') in 0.001042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 1139ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3764.
+Memory consumption went from 136.3 MB to 136.2 MB.
+Total: 4.419000 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.253100 ms MarkObjects: 3.827100 ms  DeleteObjects: 0.059500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.326 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1078ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3767.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 4.319300 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.144900 ms MarkObjects: 3.856000 ms  DeleteObjects: 0.068000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.692040 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush
+  artifactKey: Guid(5b77c6b990d4bf1448d6b10972c7a1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush using Guid(5b77c6b990d4bf1448d6b10972c7a1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2eaf4b7783ca90581f93ee221bfbe07a') in 0.004419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107950 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush/Bush.prefab
+  artifactKey: Guid(3f8eda438d8aeab4d9223c5b53f5ef62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush/Bush.prefab using Guid(3f8eda438d8aeab4d9223c5b53f5ef62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '28e6cf47ef3c63f0e2710f0bef9c1e6d') in 0.238057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 17.969696 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab
+  artifactKey: Guid(362fbd4477668ab4a956faef2e191ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab using Guid(362fbd4477668ab4a956faef2e191ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0cee2d39096c5e0551c49c564381551a') in 0.050653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 31.777559 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 1.prefab
+  artifactKey: Guid(2e12139c0ee03c44f8538d5e505a0942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 1.prefab using Guid(2e12139c0ee03c44f8538d5e505a0942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '41ae2db453bdbdab796206c032ef2c35') in 0.055124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab
+  artifactKey: Guid(e810868f614ca754bbec1ee2a733ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab using Guid(e810868f614ca754bbec1ee2a733ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2e015836682a690207f8c2526a41eb68') in 0.046496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 5.prefab
+  artifactKey: Guid(50fff5eaaf978354ba27eacb51eedb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 5.prefab using Guid(50fff5eaaf978354ba27eacb51eedb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7e9f59ad7418e934ab4509b9b09631bc') in 0.042001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 3.prefab
+  artifactKey: Guid(dcce7cb3aac7ef849b8b95a935ce65f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 3.prefab using Guid(dcce7cb3aac7ef849b8b95a935ce65f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4cccd95a59abc43c6a57cb5c2e498852') in 0.051941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.092651 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water/Detailed Water.prefab
+  artifactKey: Guid(cdafd6d66f108e740a95731699638c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water/Detailed Water.prefab using Guid(cdafd6d66f108e740a95731699638c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ede61690359a67bc36e18bebcf6f2227') in 0.149167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 19.097560 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Dirt.terrainlayer
+  artifactKey: Guid(5675940ed19666941b37cd4e098c20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Dirt.terrainlayer using Guid(5675940ed19666941b37cd4e098c20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8964f3521a7a5ea8554e5f09018c5892') in 0.054893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset
+  artifactKey: Guid(383c52c5dd0b6304e950169f371ab10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset using Guid(383c52c5dd0b6304e950169f371ab10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e99be5d5545d0a9f6c77cb228d9bf6a7') in 0.084661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.513830 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Bush Leaves.png
+  artifactKey: Guid(420d7542564a36c48a1c01d02f377375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Bush Leaves.png using Guid(420d7542564a36c48a1c01d02f377375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8e4ebde527e4efad53885fb6c8452fc1') in 0.036642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015402 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png
+  artifactKey: Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png using Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '87ac205323a992626fdf35981a634a25') in 0.033808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Grass.png
+  artifactKey: Guid(51487f115253bea4099917c031e9fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Grass.png using Guid(51487f115253bea4099917c031e9fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '61ce670c590fb24d74e33a31b250c3d6') in 0.034117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Rock.png
+  artifactKey: Guid(62b86bcfffa0aca4d9d67620fe50727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Rock.png using Guid(62b86bcfffa0aca4d9d67620fe50727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '159e3391eacf48f49fb7870d1d2ea965') in 0.028909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.365687 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 1.prefab
+  artifactKey: Guid(83145382902cecc4286a4f62b720fb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 1.prefab using Guid(83145382902cecc4286a4f62b720fb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '11656f3bf24c734254a4e969db339836') in 0.029785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.006274 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 5.prefab
+  artifactKey: Guid(4462df8489303ba448bfd5971b82232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 5.prefab using Guid(4462df8489303ba448bfd5971b82232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4d3fc55685671c1a508c174bd2edde5d') in 0.035576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 11.999887 seconds.
+  path: Assets/Maritime_Heritage/Materials/Mado_ship/MI_Mado_AnchorWheel_Ropes.mat
+  artifactKey: Guid(c58df3e95d188474fb4af21b509dac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Materials/Mado_ship/MI_Mado_AnchorWheel_Ropes.mat using Guid(c58df3e95d188474fb4af21b509dac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5de6798396f1f37a24b7e6ce45dbf1e7') in 0.117315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Maritime_Heritage/Materials/Mado_ship/MI_Mado_Sail.mat
+  artifactKey: Guid(125b7a533e64cae4a916194fe8ca902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Materials/Mado_ship/MI_Mado_Sail.mat using Guid(125b7a533e64cae4a916194fe8ca902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2554aa74f60589d963d3dd9f9f42c59d') in 0.075241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 8.080261 seconds.
+  path: Assets/Maritime_Heritage/Scene/Overview.unity
+  artifactKey: Guid(907983867f599f645a2ffaa52fcc73ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Scene/Overview.unity using Guid(907983867f599f645a2ffaa52fcc73ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3767de674bc8c8b68b08437363dd248b') in 0.002086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.751770 seconds.
+  path: Assets/Maritime_Heritage/Textures/Heritage/T_Celadon_Kettle_BC.png
+  artifactKey: Guid(abc00000000008913193835859741746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Textures/Heritage/T_Celadon_Kettle_BC.png using Guid(abc00000000008913193835859741746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd28d7369cc8d543893585a3198203a4f') in 0.029462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012473 seconds.
+  path: Assets/Maritime_Heritage/Textures/Heritage/T_LionIncenseBurner_bottom_N.png
+  artifactKey: Guid(abc00000000014987054698496659278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Textures/Heritage/T_LionIncenseBurner_bottom_N.png using Guid(abc00000000014987054698496659278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a75c6d147bf111314cf96f60a9aeb8ba') in 0.040218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Maritime_Heritage/Textures/Heritage/T_ToadInkStone_R.png
+  artifactKey: Guid(abc00000000010022257997627556588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Textures/Heritage/T_ToadInkStone_R.png using Guid(abc00000000010022257997627556588) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd1022e0942ff55ee6e941992bfd49248') in 0.024126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Maritime_Heritage/Textures/Heritage/T_LionIncenseBurner_top_BC.png
+  artifactKey: Guid(abc00000000005145151166780588571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Textures/Heritage/T_LionIncenseBurner_top_BC.png using Guid(abc00000000005145151166780588571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '005a88e6f2b89ed8a93a061326bfa661') in 0.027569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Maritime_Heritage/Textures/Heritage/T_LionIncenseBurner_bottom_BC.png
+  artifactKey: Guid(abc00000000002751538249401315397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maritime_Heritage/Textures/Heritage/T_LionIncenseBurner_bottom_BC.png using Guid(abc00000000002751538249401315397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3341877d8f8705cfb071170081a1fca5') in 0.025310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 47.748826 seconds.
+  path: Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Flat Water.fbx
+  artifactKey: Guid(85d113e10ceabf442b1ed61ade7d3b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Flat Water.fbx using Guid(85d113e10ceabf442b1ed61ade7d3b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd60422b195168eb5ae3ccda61bd30952') in 0.116952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 89.102102 seconds.
+  path: Assets/Island/Textures/Materials/Dock.mat
+  artifactKey: Guid(05c7197b9ae13794b80b8c01a0ed93ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Island/Textures/Materials/Dock.mat using Guid(05c7197b9ae13794b80b8c01a0ed93ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fa8ecced811c3ccfd91cceb23ea2f6bc') in 0.026754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Island/Textures/Materials/Water.mat
+  artifactKey: Guid(39e9c80b3ec95004aacc78946be629b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Island/Textures/Materials/Water.mat using Guid(39e9c80b3ec95004aacc78946be629b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c53d6866891d094b3792836ad1d95ca8') in 0.028516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.864 seconds
+Domain Reload Profiling: 1182ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (864ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3779.
+Memory consumption went from 136.6 MB to 136.6 MB.
+Total: 4.448200 ms (FindLiveObjects: 0.297100 ms CreateObjectMapping: 0.223500 ms MarkObjects: 3.855500 ms  DeleteObjects: 0.070500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
