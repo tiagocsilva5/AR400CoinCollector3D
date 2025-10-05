@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 54
+  controlID: 112
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 54
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 55
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -414,7 +414,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/DavePixel/PirateCoin/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -422,16 +422,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 92
   m_LastFolders:
-  - Assets/Animations
+  - Assets/DavePixel/PirateCoin/Prefabs
   m_LastFoldersGridSize: 92
   m_LastProjectPath: C:\Users\tiago_qr6vbzw\OneDrive\Documentos\GitHub\AR400CoinCollector3D\CoinCollector1.1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: c8780000
-    m_LastClickedID: 30920
-    m_ExpandedIDs: 000000002c7700002e77000030770000327700003477000036770000387700003a7700003c7700003e770000ce780000c2790000c479000000ca9a3bffffff7f
+    m_SelectedIDs: 4e760000
+    m_LastClickedID: 30286
+    m_ExpandedIDs: 00000000fc730000fe73000000740000027400000474000006740000087400000a7400000c74000010740000427600004676000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c7700002e77000030770000327700003477000036770000387700003a7700003c7700003e770000
+    m_ExpandedIDs: 00000000fc730000fe73000000740000027400000474000006740000087400000a7400000c7400000e74000010740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,9 +599,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9c58ffff
-      m_LastClickedID: -42852
-      m_ExpandedIDs: 9058ffff9c58ffff6e5effff9c8effffa88effff1690ffff18f3ffff28f3ffff68f3ffff8ef3ffffc4f3ffff0cf4ffff14f4ffff18f4ffff1cf4ffff24f4ffff28f4ffff2cf4ffff34f4ffff38f4ffff3cf4ffff44f4ffff48f4ffff4cf4ffff54f4ffff58f4ffff5cf4ffff60f4ffff64f4ffff68f4ffff6cf4ffff80f4ffff84f4ffff8cf4ffff90f4ffff94f4ffff9cf4ffffa0f4ffffa4f4ffffacf4ffffb0f4ffffb4f4ffffbcf4ffffc0f4ffffc4f4ffffccf4ffffd0f4ffffd4f4ffffd8f4ffffdcf4ffffe0f4ffffe4f4ffffe8f4ffffecf4fffff0f4fffff8f4fffffcf4ffff00f5ffff04f5ffff0cf5ffff10f5ffff14f5ffff18f5ffff1cf5ffff20f5ffff28f5ffff2cf5ffff34f5ffff38f5ffff40f5ffff44f5ffff4cf5ffff50f5ffff58f5ffff5cf5ffff60f5ffff64f5ffff68f5ffff6cf5ffff74f5ffff7cf5ffff80f5ffff88f5ffff8cf5ffff94f5ffff98f5ffffa0f5ffffa4f5ffffacf5ffffb0f5ffffb4f5ffffb8f5ffffbcf5ffffc0f5ffffc4f5ffffc8f5ffffd0f5ffffd4f5ffffd8f5ffffe0f5ffffe4f5ffffe8f5ffffecf5fffff0f5fffffcf5ffff00f6ffff40f6ffff68f6ffff94f6ffffbaf6fffff0f6ffff1ef7ffff34f7ffff5af7ffff88f7ffffb6f7ffffe2f7ffff08f8ffff14f8ffff40f8ffff4ef8ffff52f8ffff56f8ffff5ef8ffff62f8ffff66f8ffff6ef8ffff72f8ffff76f8ffff7ef8ffff82f8ffff86f8ffff8ef8ffff92f8ffff96f8ffff9af8ffff9ef8ffffa2f8ffffa6f8ffffb6f8ffffbaf8ffffc2f8ffffc6f8ffffcaf8ffffd2f8ffffd6f8ffffdaf8ffffe2f8ffffe6f8ffffeaf8fffff2f8fffff6f8fffffaf8ffff02f9ffff06f9ffff0af9ffff0ef9ffff12f9ffff16f9ffff1af9ffff1ef9ffff22f9ffff26f9ffff2ef9ffff32f9ffff36f9ffff3af9ffff42f9ffff46f9ffff4af9ffff4ef9ffff5af9ffff5cf9ffffbaf9ffffeaf9fffff6f9ffff22faffff56faffff8efaffffb4faffff0efbffff10fbffff9e6f0000b06f0000f26f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 10fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1033,9 +1033,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 220.7142, y: 7.7123647, z: 250.71214}
+    m_Target: {x: 239.49924, y: 7.7232223, z: 239.33957}
     speed: 2
-    m_Value: {x: 220.7142, y: 7.7123647, z: 250.71214}
+    m_Value: {x: 239.49924, y: 7.7232223, z: 239.33957}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1081,13 +1081,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.041540984, y: 0.73048764, z: -0.044619977, w: 0.6802442}
+    m_Target: {x: 0.08200049, y: 0.5789015, z: -0.058676947, w: 0.80918133}
     speed: 2
-    m_Value: {x: 0.041539717, y: 0.73046535, z: -0.044618614, w: 0.68022346}
+    m_Value: {x: 0.082056314, y: 0.57807225, z: -0.058592908, w: 0.80973214}
   m_Size:
     m_Target: 1.2247449
     speed: 2
-    m_Value: 1.2247449
+    m_Value: 1.9950353
   m_Ortho:
     m_Target: 0
     speed: 2
