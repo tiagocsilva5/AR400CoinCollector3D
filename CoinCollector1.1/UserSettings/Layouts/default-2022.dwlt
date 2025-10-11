@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007a680000fa6e00000000000074730000f4750000f8750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -601,21 +601,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 10fbffff
+      m_ExpandedIDs: 76f6ffff06fbffff10fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: PirateCoin (9)
+        m_OriginalName: PirateCoin (9)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -15384
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -1033,9 +1033,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 214.74825, y: 16.874866, z: 243.01007}
+    m_Target: {x: 313.8878, y: 14.403939, z: 227.998}
     speed: 2
-    m_Value: {x: 214.74825, y: 16.874866, z: 243.01009}
+    m_Value: {x: 313.8878, y: 14.403939, z: 227.998}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1081,13 +1081,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.005017012, y: -0.59782153, z: 0.003309267, w: -0.8019446}
+    m_Target: {x: -0.282634, y: -0.50621426, z: 0.17897208, w: -0.7952757}
     speed: 2
-    m_Value: {x: -0.0058170557, y: -0.597656, z: 0.003906436, w: -0.80172205}
+    m_Value: {x: -0.2825451, y: -0.50605506, z: 0.1789158, w: -0.7950256}
   m_Size:
-    m_Target: 0.93119794
+    m_Target: 0.93119824
     speed: 2
-    m_Value: 0.93119794
+    m_Value: 0.93119824
   m_Ortho:
     m_Target: 0
     speed: 2
